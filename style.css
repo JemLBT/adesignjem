@@ -1,0 +1,33 @@
+h1 {
+  font-size: 16px;
+  text-align: center;
+  display: flexbox;
+}
+
+h1.hover {
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 40px;
+  color: #fa329a;
+  font-family: "Shrikhand", serif;
+  text-align: center;
+  line-height: 40px;
+}
+
+body {
+  background-color: #fdde5b;
+}
+.logo {
+  margin-top: 300px;
+  width: 400px;
+  text-align: center;
+  background-color: #fdde5b;
+  margin-left: 0;
+}
+
+.logotwo {
+  display: block;
+  margin: 0 auto;
+}
