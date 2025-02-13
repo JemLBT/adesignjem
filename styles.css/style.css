@@ -18,7 +18,7 @@ h2 {
 .hero {
   background-color: rgb(32, 30, 30);
   margin: 0 auto;
-  padding: 100px;
+  padding: 220px;
 }
 
 @media (max-width: 576px) {
