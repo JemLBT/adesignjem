@@ -62,7 +62,7 @@ h4 {
   }
   h2 {
     font-family: "Catamaran", serif;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 2px;
     color: white;
   }
@@ -73,7 +73,7 @@ h4 {
   }
   h4 {
     font-family: "Catamaran", serif;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
     font-weight: lighter;
   }
@@ -92,7 +92,7 @@ h4 {
   }
   .btn-light {
     font-family: "Catamaran", serif;
-    font-size: 6px;
+    font-size: 8px;
     letter-spacing: 1px;
     justify-content: center;
     text-align: center;
