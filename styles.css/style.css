@@ -1,3 +1,10 @@
+body {
+  font-family: "Catamaran", serif;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(50, 50, 50);
+}
+
 h1 {
   font-family: "Shrikhand", serif;
   font-size: 90px;
@@ -16,6 +23,20 @@ h2 {
   font-weight: 200;
 }
 
+h3 {
+  font-family: "Shrikhand", serif;
+  font-size: 30px;
+}
+h4 {
+  font-family: "Catamaran", serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+.projects {
+  color: rgb(32, 30, 30);
+  background-color: white;
+  padding: 30px;
+}
 .btn-light {
   font-family: "Catamaran", serif;
   font-size: 12px;
@@ -35,14 +56,34 @@ h2 {
 @media (max-width: 576px) {
   h1 {
     font-family: "Shrikhand", serif;
-    font-size: 30px;
+    font-size: 50px;
     color: rgb(251, 251, 251);
     text-align: center;
   }
   h2 {
     font-family: "Catamaran", serif;
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: 2px;
+    color: black;
+  }
+
+  h3 {
+    font-family: "Shrikhand", serif;
+    font-size: 18px;
+  }
+  h4 {
+    font-family: "Catamaran", serif;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: lighter;
+  }
+  .container {
+    font-family: "Catamaran", serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
   }
   .hero {
     background-color: rgb(32, 30, 30);
