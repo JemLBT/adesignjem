@@ -38,11 +38,20 @@ h2 {
     margin: 0 auto;
     padding: 80px;
   }
+  .btn-light {
+    font-family: "Catamaran", serif;
+    font-size: 6px;
+    letter-spacing: 1px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 .btn-light {
   font-family: "Catamaran", serif;
-  font-size: 6px;
+  font-size: 12px;
   letter-spacing: 2px;
   justify-content: center;
   text-align: center;
