@@ -3,6 +3,7 @@ h1 {
   font-size: 90px;
   color: rgb(251, 251, 251);
   text-align: center;
+  padding-top: 200px;
 }
 
 h2 {
@@ -15,12 +16,6 @@ h2 {
   font-weight: 200;
 }
 
-.hero {
-  background-color: rgb(32, 30, 30);
-  margin: 0 auto;
-  padding: 220px;
-}
-
 .btn-light {
   font-family: "Catamaran", serif;
   font-size: 12px;
@@ -30,6 +25,13 @@ h2 {
   margin: 0 auto;
   display: block;
 }
+
+.hero {
+  background-color: rgb(32, 30, 30);
+  margin: 0 auto;
+  padding: 220px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-family: "Shrikhand", serif;
