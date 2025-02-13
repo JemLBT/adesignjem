@@ -56,7 +56,7 @@ h4 {
 @media (max-width: 576px) {
   h1 {
     font-family: "Shrikhand", serif;
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(251, 251, 251);
     text-align: center;
   }
@@ -64,7 +64,7 @@ h4 {
     font-family: "Catamaran", serif;
     font-size: 12px;
     letter-spacing: 2px;
-    color: black;
+    color: white;
   }
 
   h3 {
@@ -88,7 +88,7 @@ h4 {
   .hero {
     background-color: rgb(32, 30, 30);
     margin: 0 auto;
-    padding: 80px;
+    padding: 60px;
   }
   .btn-light {
     font-family: "Catamaran", serif;
