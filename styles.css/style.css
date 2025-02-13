@@ -17,5 +17,20 @@ h2 {
 
 .hero {
   background-color: rgb(32, 30, 30);
-  padding: 200px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-family: "Shrikhand", serif;
+    font-size: 40px;
+    color: rgb(251, 251, 251);
+    text-align: center;
+  }
+  h2 {
+    font-family: "Catamaran", serif;
+    font-size: 8px;
+    letter-spacing: 4px;
+  }
 }
