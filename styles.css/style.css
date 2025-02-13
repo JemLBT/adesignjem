@@ -39,3 +39,13 @@ h2 {
     padding: 80px;
   }
 }
+
+.btn-light {
+  font-family: "Catamaran", serif;
+  font-size: 6px;
+  letter-spacing: 2px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
