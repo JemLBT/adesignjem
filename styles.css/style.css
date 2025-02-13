@@ -1,16 +1,19 @@
 h1 {
   font-family: "Shrikhand", serif;
   font-size: 90px;
-  color: white;
+  color: rgb(251, 251, 251);
   background-color: rgb(32, 30, 30);
-  padding: 200px 10px 10px 10px;
   text-align: center;
+  padding: 200px;
 }
 
-h2 {
+.tagline {
   text-align: center;
   font-family: "Catamaran", serif;
-  padding: 10px;
-  font-size: 24px;
-  letter-spacing: 2px;
+  font-size: 18px;
+  letter-spacing: 8px;
+  color: rgb(251, 251, 251);
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 200;
 }
