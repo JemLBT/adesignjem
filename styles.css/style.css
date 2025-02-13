@@ -24,13 +24,17 @@ h2 {
 @media (max-width: 576px) {
   h1 {
     font-family: "Shrikhand", serif;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(251, 251, 251);
     text-align: center;
   }
   h2 {
     font-family: "Catamaran", serif;
-    font-size: 8px;
-    letter-spacing: 4px;
+    font-size: 4px;
+    letter-spacing: 2px;
+  }
+  .hero {
+    margin: 0 auto;
+    padding: 90px;
   }
 }
