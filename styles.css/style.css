@@ -21,6 +21,15 @@ h2 {
   padding: 220px;
 }
 
+.btn-light {
+  font-family: "Catamaran", serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
 @media (max-width: 576px) {
   h1 {
     font-family: "Shrikhand", serif;
@@ -47,14 +56,4 @@ h2 {
     margin: 0 auto;
     display: block;
   }
-}
-
-.btn-light {
-  font-family: "Catamaran", serif;
-  font-size: 12px;
-  letter-spacing: 2px;
-  justify-content: center;
-  text-align: center;
-  margin: 0 auto;
-  display: block;
 }
