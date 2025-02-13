@@ -34,6 +34,7 @@ h2 {
     letter-spacing: 2px;
   }
   .hero {
+    background-color: rgb(32, 30, 30);
     margin: 0 auto;
     padding: 90px;
   }
