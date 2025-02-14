@@ -17,6 +17,10 @@ h1 {
   color: #2c2a2a;
 }
 
+h1:hover {
+  color: #200dff;
+}
+
 h2 {
   font-family: "Catamaran", serif;
   font-size: 18px;
@@ -42,11 +46,6 @@ h5 {
   font-weight: 800;
 }
 
-.projects {
-  color: rgb(32, 30, 30);
-  background-color: #f7f7f7;
-  padding: 20px;
-}
 .btn-light {
   font-family: "Catamaran", serif;
   font-size: 12px;
@@ -129,7 +128,6 @@ h5 {
   }
   .projects {
     font-size: 14px;
-    padding: 10px;
     font-family: "Catamaran", serif;
     color: #2c2a2a;
     background-color: white;
@@ -150,7 +148,7 @@ h5 {
 .about {
   background-color: #2c2a2a;
   color: #f7f7f7;
-  padding: 60px;
+  padding: 40px;
   text-align: justify;
   max-width: 800px;
   margin: 0 auto;
@@ -163,13 +161,28 @@ ul {
 
 .projects {
   font-size: 14px;
-  padding: 10px;
+  padding: 40px;
   font-family: "Catamaran", serif;
   color: #2c2a2a;
   background-color: white;
   max-width: 800px;
   text-align: left;
   justify-content: center;
+  margin: 0 auto;
+  display: block;
+}
+.contact {
+  background-color: #2c2a2a;
+  color: #f7f7f7;
+  padding: 40px;
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+img {
+  text-align: center;
   margin: 0 auto;
   display: block;
 }
