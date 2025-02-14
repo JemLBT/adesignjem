@@ -166,6 +166,15 @@ h5 {
     color: #2c2a2a;
     transition: all 100ms ease-in-out;
   }
+  .footer {
+    background-color: #ff2996;
+    text-align: center;
+    font-family: "Catamaran", serif;
+    font-size: 8px;
+    color: #f7f7f7;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
 }
 
 .jemlogo {
@@ -301,4 +310,16 @@ navigation:hover {
 .secondaryButton:hover {
   background-color: #ff2996;
   cursor: pointer;
+}
+
+.footer {
+  background-color: #ff2996;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Catamaran", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #f7f7f7;
+  margin-bottom: 30px;
+  padding: 20px;
 }
