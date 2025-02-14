@@ -48,6 +48,8 @@ h4 {
 .hero {
   background-color: rgb(32, 30, 30);
   margin: 0 auto;
+  padding-top: 160px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 576px) {
