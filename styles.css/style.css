@@ -1,19 +1,27 @@
 body {
-  font-family: "Catamaran", serif;
-  font-size: 16px;
-}
+  --s: 50px; /* control the size*/
+  --c1: #292522;
+  background-color: #f7f7f7;
+  --c2: ;
 
+  --c: #0000 75%, var(--c1) 0;
+  --g1: conic-gradient(at 75% 25%, var(--c));
+  --g2: conic-gradient(at 25% 75%, var(--c));
+  background: var(--g1), var(--g1) var(--s) var(--s), var(--g2),
+    var(--g2) var(--s) var(--s) var(--c2);
+  background-size: calc(2 * var(--s)) calc(2 * var(--s));
+}
 h1 {
   font-family: "Shrikhand", serif;
   font-size: 90px;
-  color: 2C2A2A;
+  color: #2c2a2a;
 }
 
 h2 {
   font-family: "Catamaran", serif;
   font-size: 18px;
   letter-spacing: 8px;
-  color: 2C2A2A;
+  color: #2c2a2a;
 
   font-weight: 200;
 }
@@ -29,7 +37,8 @@ h4 {
 }
 .projects {
   color: rgb(32, 30, 30);
-  background-color: white;
+  background-color: #f7f7f7;
+
   padding: 30px;
 }
 .btn-light {
@@ -43,33 +52,39 @@ h4 {
 }
 
 .hero {
-  background-color: F7F7F7;
+  background-color: #f7f7f7;
   margin: 0 auto;
   padding-top: 300px;
   padding-bottom: 100px;
   text-align: center;
-}
-
-.about {
-  max-width: 800px;
-  border-radius: 5px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
+  border: #ead4d4;
 }
 
 @media (max-width: 576px) {
+  body {
+    --s: 20px; /* control the size*/
+    --c1: #292522;
+    background-color: #f7f7f7;
+    --c2: ;
+
+    --c: #0000 75%, var(--c1) 0;
+    --g1: conic-gradient(at 75% 25%, var(--c));
+    --g2: conic-gradient(at 25% 75%, var(--c));
+    background: var(--g1), var(--g1) var(--s) var(--s), var(--g2),
+      var(--g2) var(--s) var(--s) var(--c2);
+    background-size: calc(2 * var(--s)) calc(2 * var(--s));
+  }
   h1 {
     font-family: "Shrikhand", serif;
     font-size: 40px;
-    color: 2C2A2A;
+    color: #2c2a2a;
     text-align: center;
   }
   h2 {
     font-family: "Catamaran", serif;
     font-size: 14px;
     letter-spacing: 1px;
-    color: 2C2A2A;
+    color: #2c2a2a;
   }
 
   h3 {
@@ -90,7 +105,7 @@ h4 {
     margin: 0 auto;
   }
   .hero {
-    background-color: F7F7F7;
+    background-color: #f7f7f7;
     margin: 0 auto;
     padding-top: 320px;
     padding-bottom: 20px;
@@ -103,6 +118,13 @@ h4 {
     text-align: center;
     margin: 0 auto;
     display: block;
+  }
+  .about {
+    background-color: #2c2a2a;
+    color: #f7f7f7;
+    padding: 60px;
+    text-align: justify;
+    border-radius: 0;
   }
 }
 
@@ -117,6 +139,9 @@ h4 {
   color: #f7f7f7;
   padding: 60px;
   text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
 }
 
 ul {
