@@ -54,7 +54,7 @@ h4 {
 @media (max-width: 576px) {
   h1 {
     font-family: "Shrikhand", serif;
-    font-size: 30px;
+    font-size: 40px;
     color: 2C2A2A;
     text-align: center;
   }
@@ -67,7 +67,7 @@ h4 {
 
   h3 {
     font-family: "Shrikhand", serif;
-    font-size: 28px;
+    font-size: 18px;
   }
   h4 {
     font-family: "Catamaran", serif;
@@ -97,17 +97,6 @@ h4 {
     margin: 0 auto;
     display: block;
   }
-
-  li {
-    text-decoration: none;
-  }
-}
-
-li {
-  font-family: "Shrikhand", serif;
-  padding: 1px;
-  text-align: left;
-  text-decoration: none;
 }
 
 .jemlogo {
@@ -117,13 +106,7 @@ li {
 }
 
 .about {
-  background-color: #2c2a2a;
-  color: #f7f7f7;
-  padding: 40px;
-}
-
-.skills {
-  background-color: #200dff;
+  background-color: hsl(0, 0%, 5%);
   color: #f7f7f7;
   padding: 40px;
 }
