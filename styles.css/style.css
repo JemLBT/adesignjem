@@ -149,8 +149,8 @@ h5 {
   nav ul {
     padding: 0;
     margin: 0;
-    background-color: #f7f7f7;
     height: 15px;
+    text-align: center;
   }
 
   nav li {
@@ -217,17 +217,17 @@ img {
 }
 
 .primarylogo {
-  width: 40px;
+  width: 50px;
 }
 
 nav {
   padding: 20px 0;
+  text-align: center;
 }
 
 nav ul {
   padding: 0;
   margin: 0;
-  background-color: #f7f7f7;
   height: 43px;
 }
 
@@ -236,11 +236,14 @@ nav li {
   list-style: none;
   line-height: 42px;
   padding: 20px;
-  justify-content: center;
 }
 
 nav a {
   text-decoration: none;
   color: #2c2a2a;
   transition: all 100ms ease-in-out;
+}
+
+.navigation {
+  margin-top: 30px;
 }
