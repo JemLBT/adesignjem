@@ -18,7 +18,7 @@ h1 {
 }
 
 h1:hover {
-  color: #200dff;
+  color: #ff2996;
 }
 
 h2 {
@@ -244,11 +244,19 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-nav:hover {
+nav a:hover {
   color: #ff2996;
   cursor: pointer;
 }
 
+nav ul:hover {
+  color: #ff2996;
+  cursor: pointer;
+}
+nav li:hover {
+  color: #ff2996;
+  cursor: pointer;
+}
 .navigation {
   margin-top: 30px;
 }
