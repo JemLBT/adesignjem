@@ -247,3 +247,40 @@ nav a {
 .navigation {
   margin-top: 30px;
 }
+
+.primaryButton {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+  font-family: "Catamaran", serif;
+  color: #f7f7f7;
+  background-color: #200dff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.primaryButton:hover {
+  background-color: #ff2996;
+  cursor: pointer;
+}
+
+.secondaryButton {
+  color: #f7f7f7;
+  background-color: #2c2a2a;
+  border: 1px solid #f7f7f7;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 8px;
+  font-family: "Catamaran", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  text-transform: uppercase;
+}
+
+.secondaryButton:hover {
+  background-color: #ff2996;
+}
