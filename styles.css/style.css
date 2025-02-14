@@ -124,6 +124,7 @@ h5 {
     color: #f7f7f7;
     padding: 40px;
     text-align: justify;
+    max-width: 400px;
     display: block;
   }
   .projects {
@@ -136,6 +137,34 @@ h5 {
     justify-content: center;
     margin: 0 auto;
     display: block;
+  }
+  .primarylogo {
+    width: 22px;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    height: 15px;
+  }
+
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 15px;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #2c2a2a;
+    transition: all 100ms ease-in-out;
   }
 }
 
@@ -185,4 +214,33 @@ img {
   text-align: center;
   margin: 0 auto;
   display: block;
+}
+
+.primarylogo {
+  width: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  background-color: #f7f7f7;
+  height: 43px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  padding: 20px;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2c2a2a;
+  transition: all 100ms ease-in-out;
 }
