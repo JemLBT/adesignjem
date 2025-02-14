@@ -244,8 +244,17 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
+nav:hover {
+  color: #ff2996;
+  cursor: pointer;
+}
+
 .navigation {
   margin-top: 30px;
+}
+navigation:hover {
+  color: #ff2996;
+  cursor: pointer;
 }
 
 .primaryButton {
@@ -283,4 +292,5 @@ nav a {
 
 .secondaryButton:hover {
   background-color: #ff2996;
+  cursor: pointer;
 }
