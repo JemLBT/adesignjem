@@ -1,5 +1,5 @@
 body {
-  --s: 50px; /* control the size*/
+  --s: 14px;
   --c1: #292522;
   background-color: #f7f7f7;
   --c2: ;
@@ -62,7 +62,7 @@ h4 {
 
 @media (max-width: 576px) {
   body {
-    --s: 20px; /* control the size*/
+    --s: 10px;
     --c1: #292522;
     background-color: #f7f7f7;
     --c2: ;
