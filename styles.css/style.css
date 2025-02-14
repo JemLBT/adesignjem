@@ -106,7 +106,12 @@ h4 {
 }
 
 .about {
-  background-color: hsl(0, 0%, 5%);
+  background-color: #2c2a2a;
   color: #f7f7f7;
-  padding: 40px;
+  padding: 60px;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
 }
