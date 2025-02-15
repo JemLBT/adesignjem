@@ -315,6 +315,7 @@ navigation:hover {
 
 .secondaryButton:hover {
   background-color: var(--secondary-color);
+  color: var(--third-color);
   cursor: pointer;
 }
 
