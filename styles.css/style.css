@@ -127,7 +127,7 @@ h5 {
   }
   .about {
     background-color: var(--primary-color);
-    color: var(var(--third-color));
+    color: var(--third-color);
     padding: 40px;
     text-align: justify;
     max-width: 400px;
@@ -191,7 +191,7 @@ h5 {
 
 .about {
   background-color: var(--primary-color);
-  color: var(var(--third-color));
+  color: var(--third-color);
   padding: 40px;
   text-align: justify;
   max-width: 800px;
