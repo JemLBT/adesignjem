@@ -285,7 +285,7 @@ navigation:hover {
   margin: 20px;
   border-radius: 8px;
   font-family: "Catamaran", serif;
-  color: var(--secondary-color);
+  color: var(--third-color);
   background-color: #200dff;
   font-size: 12px;
   letter-spacing: 1px;
@@ -300,7 +300,7 @@ navigation:hover {
 }
 
 .secondaryButton {
-  color: #f7f7f7;
+  color: var(--secondary-color);
   background-color: var(--third-color);
   border: 1px solid #f7f7f7;
   padding: 10px;
