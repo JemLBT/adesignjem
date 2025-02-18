@@ -73,7 +73,7 @@ h5 {
 
 @media (max-width: 576px) {
   body {
-    --s: 112px; /* control the size*/
+    --s: 70px; /* control the size*/
     --c1: var(--third-color);
     --c2: var(--primary-color);
 
