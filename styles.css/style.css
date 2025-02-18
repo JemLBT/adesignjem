@@ -5,18 +5,18 @@
 }
 
 body {
-  --s: 33px;
-  --c1: #292522;
-  background-color: #f7f7f7;
-  --c2: ;
+  --s: 112px; /* control the size*/
+  --c1: var(--third-color);
+  --c2: var(--primary-color);
 
-  --c: #0000 75%, var(--c1) 0;
-  --g1: conic-gradient(at 75% 25%, var(--c));
-  --g2: conic-gradient(at 25% 75%, var(--c));
-  background: var(--g1), var(--g1) var(--s) var(--s), var(--g2),
-    var(--g2) var(--s) var(--s) var(--c2);
-  background-size: calc(2 * var(--s)) calc(2 * var(--s));
+  --g1: conic-gradient(from -45deg at 60%, #0000 75%, var(--c1) 0);
+  --g2: conic-gradient(from -45deg at 30%, #0000 75%, var(--c2) 0);
+  background: var(--g2) calc(var(--s) / 8) 0,
+    var(--g2) calc(5 * var(--s) / 8) var(--s), var(--g1),
+    var(--g1) calc(var(--s) / 2) var(--s) var(--c2);
+  background-size: var(--s) calc(2 * var(--s));
 }
+
 h1 {
   font-family: "Shrikhand", serif;
   font-size: 90px;
@@ -73,17 +73,16 @@ h5 {
 
 @media (max-width: 576px) {
   body {
-    --s: 33px;
-    --c1: #292522;
-    background-color: #f7f7f7;
-    --c2: ;
+    --s: 112px; /* control the size*/
+    --c1: var(--third-color);
+    --c2: var(--primary-color);
 
-    --c: #0000 75%, var(--c1) 0;
-    --g1: conic-gradient(at 75% 25%, var(--c));
-    --g2: conic-gradient(at 25% 75%, var(--c));
-    background: var(--g1), var(--g1) var(--s) var(--s), var(--g2),
-      var(--g2) var(--s) var(--s) var(--c2);
-    background-size: calc(2 * var(--s)) calc(2 * var(--s));
+    --g1: conic-gradient(from -45deg at 60%, #0000 75%, var(--c1) 0);
+    --g2: conic-gradient(from -45deg at 30%, #0000 75%, var(--c2) 0);
+    background: var(--g2) calc(var(--s) / 8) 0,
+      var(--g2) calc(5 * var(--s) / 8) var(--s), var(--g1),
+      var(--g1) calc(var(--s) / 2) var(--s) var(--c2);
+    background-size: var(--s) calc(2 * var(--s));
   }
   h1 {
     font-family: "Shrikhand", serif;
