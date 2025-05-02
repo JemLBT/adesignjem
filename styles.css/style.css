@@ -71,6 +71,15 @@ h5 {
   border: #ead4d4;
 }
 
+.jemphoto {
+  width: 130px;
+  display: inline-block;
+  margin: 20px;
+  background-color: #ff2996;
+  border-radius: 100px;
+  box-shadow: 10px 5px 5px rgb(220, 218, 218);
+}
+
 .grid-projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -261,7 +270,7 @@ ul {
   background-color: var(--third-color);
   max-width: 800px;
   text-align: left;
-  justify-content: center;
+  justify-content: left;
   margin: 0 auto;
   display: block;
 }
